@@ -1,6 +1,7 @@
 const ingredients = ["Картошка", "Грибы", "Чеснок", "Помидоры", "Зелень", "Приправы"]
 
 const mainListRef = document.querySelector("#ingredients")
+mainListRef.style.listStyle = "none"
 console.log(mainListRef)
 
 for (const item of ingredients) {
